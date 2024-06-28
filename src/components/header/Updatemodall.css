@@ -1,0 +1,54 @@
+.modal-header-custom {
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #dee2e6;
+  }
+  
+  .modal-footer-custom {
+    background-color: #f8f9fa;
+    border-top: 2px solid #dee2e6;
+  }
+  
+  .mb-3 {
+    margin-bottom: 1rem !important;
+  }
+  
+  .form-control::placeholder {
+    color: #6c757d;
+    opacity: 1;
+  }
+  
+  .form-control:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+  button:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  
+  .modal-body {
+    padding: 2rem;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .form-label {
+    font-weight: bold;
+    color: #343a40;
+  }
+  
+  .modal-footer .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .modal-footer .btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+  }
+  

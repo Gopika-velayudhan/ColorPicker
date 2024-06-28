@@ -1,0 +1,40 @@
+.task-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.custom-card {
+  width: 20rem;
+  margin: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.custom-button {
+  margin-right: 10px;
+  flex: 1;
+}
+
+.create-button {
+  margin: 20px auto;
+  display: block;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  background-color: #28a745;
+  border-radius: 10px;
+  border-color: #28a745;
+  color: white;
+}
+
+.create-button:hover {
+  background-color: #218838;
+}
